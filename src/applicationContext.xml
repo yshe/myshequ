@@ -51,6 +51,12 @@
 				
 				<value>com/community/bean/Humor.hbm.xml</value>
 				<value>com/community/bean/User.hbm.xml</value>
+				<value>com/community/bean/Action.hbm.xml</value>
+				<value>com/community/bean/HouseInfo.hbm.xml</value>
+				<value>com/community/bean/HouseOrder.hbm.xml</value>
+				<value>com/community/bean/OldMarket.hbm.xml</value>
+				<value>com/community/bean/userInfo.hbm.xml</value>
+				
 				
 				
 			</list>

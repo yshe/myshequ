@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2015-8-3 23:53:16 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.community.bean.userInfo" table="USERINFO">
+        <id name="uid" type="java.lang.String">
+            <column name="UID" />
+            <generator class="assigned" />
+        </id>
+        <property name="nickname" type="java.lang.String">
+            <column name="NICKNAME" />
+        </property>
+        <property name="realName" type="java.lang.String">
+            <column name="REALNAME" />
+        </property>
+        <property name="sex" type="int">
+            <column name="SEX" />
+        </property>
+        <property name="address" type="java.lang.String">
+            <column name="ADDRESS" />
+        </property>
+        <property name="userType" type="int">
+            <column name="USERTYPE" />
+        </property>
+        <property name="userAuth" type="int">
+            <column name="USERAUTH" />
+        </property>
+        <property name="idcard" type="java.lang.String">
+            <column name="IDCARD" />
+        </property>
+        <property name="headImg" type="java.lang.String">
+            <column name="HEADIMG" />
+        </property>
+        <property name="phone" type="java.lang.String">
+            <column name="PHONE" />
+        </property>
+        <property name="password" type="java.lang.String">
+            <column name="PASSWORD" />
+        </property>
+        <property name="createTime" type="java.util.Date">
+            <column name="CREATETIME" />
+        </property>
+        <property name="lastLogin" type="java.util.Date">
+            <column name="LASTLOGIN" />
+        </property>
+        <property name="recommendImg" type="java.lang.String">
+            <column name="RECOMMENDIMG" />
+        </property>
+    </class>
+</hibernate-mapping>

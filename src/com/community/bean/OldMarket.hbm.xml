@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2015-8-3 23:53:16 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.community.bean.OldMarket" table="OLDMARKET">
+        <id name="id" type="int">
+            <column name="ID" />
+            <generator class="native" />
+        </id>
+        <property name="uid" type="int">
+            <column name="UID" />
+        </property>
+        <property name="goodsName" type="java.lang.String">
+            <column name="GOODSNAME" />
+        </property>
+        <property name="describle" type="java.lang.String">
+            <column name="DESCRIBLE" />
+        </property>
+        <property name="goodsImg" type="java.lang.String">
+            <column name="GOODSIMG" />
+        </property>
+        <property name="price" type="float">
+            <column name="PRICE" />
+        </property>
+        <property name="publishTime" type="java.util.Date">
+            <column name="PUBLISHTIME" />
+        </property>
+        <property name="endTime" type="java.util.Date">
+            <column name="ENDTIME" />
+        </property>
+        <property name="flag" type="int">
+            <column name="FLAG" />
+        </property>
+    </class>
+</hibernate-mapping>

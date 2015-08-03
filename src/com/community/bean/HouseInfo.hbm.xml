@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2015-8-3 23:53:16 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.community.bean.HouseInfo" table="HOUSEINFO">
+        <id name="id" type="int">
+            <column name="ID" />
+            <generator class="native" />
+        </id>
+        <property name="uid" type="java.lang.String">
+            <column name="UID" />
+        </property>
+        <property name="address" type="java.lang.String">
+            <column name="ADDRESS" />
+        </property>
+        <property name="describle" type="java.lang.String">
+            <column name="DESCRIBLE" />
+        </property>
+        <property name="houseType" type="java.lang.String">
+            <column name="HOUSETYPE" />
+        </property>
+        <property name="price" type="float">
+            <column name="PRICE" />
+        </property>
+        <property name="houseImg" type="java.lang.String">
+            <column name="HOUSEIMG" />
+        </property>
+        <property name="publishTime" type="java.util.Date">
+            <column name="PUBLISHTIME" />
+        </property>
+        <property name="lessmonth" type="int">
+            <column name="LESSMONTH" />
+        </property>
+        <property name="recommendImg" type="java.lang.String">
+            <column name="RECOMMENDIMG" />
+        </property>
+        <property name="flag" type="int">
+            <column name="FLAG" />
+        </property>
+    </class>
+</hibernate-mapping>
